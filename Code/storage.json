@@ -7,6 +7,8 @@
             "file:///home/wingdr/.config/conky"
         ],
         "files2": [
+            "file:///home/wingdr/Downloads/user",
+            "file:///home/wingdr/.config/.gitignore",
             "file:///home/wingdr/texput.pdf",
             "file:///home/wingdr/.config/clash/stop-clash.sh",
             "file:///home/wingdr/.config/clash/start-clash.sh",
@@ -48,8 +50,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "重新打开已关闭的编辑器(&&R)",
-                                    "enabled": false
+                                    "label": "重新打开已关闭的编辑器(&&R)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -89,6 +90,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wingdr/.config/.gitignore",
+                                        "path": "/home/wingdr/.config/.gitignore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/.gitignore"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wingdr/Downloads/user",
+                                        "path": "/home/wingdr/Downloads/user",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/user"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -670,8 +693,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "上次编辑位置(&&L)",
-                        "enabled": false
+                        "label": "上次编辑位置(&&L)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1552,7 +1574,7 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/wingdr/.config/Code/Backups/1615630934465",
+            "backupPath": "/home/wingdr/.config/Code/Backups/1615910596674",
             "uiState": {
                 "mode": 1,
                 "x": 968,

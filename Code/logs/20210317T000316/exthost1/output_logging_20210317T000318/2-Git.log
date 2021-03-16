@@ -1,0 +1,24 @@
+正在查找 Git: git
+将使用位于 git 的 Git 2.30.1
+> git rev-parse --git-dir
+Open repository: /home/wingdr/.config
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/wingdr/.config/.gitignore
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/wingdr/.config/.gitignore
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/wingdr/.config/.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

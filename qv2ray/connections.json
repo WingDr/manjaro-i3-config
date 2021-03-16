@@ -16,21 +16,21 @@
     "jsncoivalowi": {
         "creationDate": 1615904635,
         "displayName": "香港 01 | V2Ray | 2x",
-        "lastConnected": 1615905240,
+        "lastConnected": 1615906149,
         "lastUpdatedDate": 1615904635,
         "latency": 34,
         "stats": [
             {
-                "downLinkData": 15419076,
-                "upLinkData": 698604
+                "downLinkData": 63665555,
+                "upLinkData": 2928485
             },
             {
-                "downLinkData": 14911930,
-                "upLinkData": 474913
+                "downLinkData": 23535442,
+                "upLinkData": 1745506
             },
             {
-                "downLinkData": 717025,
-                "upLinkData": 241685
+                "downLinkData": 40533246,
+                "upLinkData": 1226262
             },
             {
             }

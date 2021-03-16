@@ -1,0 +1,8 @@
+[2021-03-17 00:03:40.526] [sharedprocess] [info] Installing extension: syler.ignore
+[2021-03-17 00:03:41.236] [sharedprocess] [info] Downloaded extension: syler.ignore undefined
+[2021-03-17 00:03:41.292] [sharedprocess] [info] Extracted extension to /home/wingdr/.vscode/extensions/.syler.ignore-0.0.4: syler.ignore
+[2021-03-17 00:03:41.292] [sharedprocess] [info] Renamed to /home/wingdr/.vscode/extensions/syler.ignore-0.0.4
+[2021-03-17 00:03:41.293] [sharedprocess] [info] Installation completed. syler.ignore
+[2021-03-17 00:03:41.296] [sharedprocess] [info] Extensions installed successfully: syler.ignore
+[2021-03-17 00:03:57.451] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-03-17 00:03:57.456] [sharedprocess] [info] Skipping directory 7f21593a6f690d3f9943ef151cd5606e.zh-cn. Language pack still in use.
