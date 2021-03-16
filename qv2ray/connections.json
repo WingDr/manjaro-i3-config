@@ -1,0 +1,81 @@
+{
+    "bghzkqtaihdx": {
+        "creationDate": 1615904635,
+        "displayName": "V1 | 美国 01 | 华南移动 | NF | V2Ray",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 35
+    },
+    "irpyepdumuip": {
+        "creationDate": 1615904635,
+        "displayName": "香港 02 | V2Ray | 2x",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 39
+    },
+    "jsncoivalowi": {
+        "creationDate": 1615904635,
+        "displayName": "香港 01 | V2Ray | 2x",
+        "lastConnected": 1615905240,
+        "lastUpdatedDate": 1615904635,
+        "latency": 34,
+        "stats": [
+            {
+                "downLinkData": 15419076,
+                "upLinkData": 698604
+            },
+            {
+                "downLinkData": 14911930,
+                "upLinkData": 474913
+            },
+            {
+                "downLinkData": 717025,
+                "upLinkData": 241685
+            },
+            {
+            }
+        ]
+    },
+    "jycantspcbmj": {
+        "creationDate": 1615904635,
+        "displayName": "香港 03 | V2Ray | 2x",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 36
+    },
+    "pmybzksloatg": {
+        "creationDate": 1615904635,
+        "displayName": "过期时间：2021-07-07",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 99999
+    },
+    "thlyirgtwdho": {
+        "creationDate": 1615904635,
+        "displayName": "剩余流量：289.63GB",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 99999
+    },
+    "uulntijcpfou": {
+        "creationDate": 1615904635,
+        "displayName": "跳转域名：getprpr.com",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 99999
+    },
+    "wdnjshssnodx": {
+        "creationDate": 1615904635,
+        "displayName": "香港 04 | V2Ray | 2x",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 35
+    },
+    "zgtcbhxesihg": {
+        "creationDate": 1615904635,
+        "displayName": "V1 | 美国 02 | 华南移动 | NF | V2Ray",
+        "lastConnected": 0,
+        "lastUpdatedDate": 1615904635,
+        "latency": 34
+    }
+}

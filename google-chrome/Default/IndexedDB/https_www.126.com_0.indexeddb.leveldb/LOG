@@ -1,0 +1,15 @@
+2021/03/16-23:11:20.231 5109 Reusing MANIFEST /home/wingdr/.config/google-chrome/Default/IndexedDB/https_www.126.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/16-23:11:20.231 5109 Recovering log #7
+2021/03/16-23:11:20.232 5109 Reusing old log /home/wingdr/.config/google-chrome/Default/IndexedDB/https_www.126.com_0.indexeddb.leveldb/000007.log 
+2021/03/16-23:11:53.606 5109 Level-0 table #12: started
+2021/03/16-23:11:53.611 5109 Level-0 table #12: 31232 bytes OK
+2021/03/16-23:11:53.613 5109 Delete type=0 #7
+2021/03/16-23:11:53.613 5109 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/16-23:11:53.614 5109 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x10Lv\xb9\x83wB\x00\x01R\x00f\x00r\x00e\x00e\x00m\x00a\x00i\x00l\x00-\x00l\x00o\x00g\x00i\x00n\x00-\x00p\x00c\x00:\x00i\x00m\x00a\x00g\x00e\x00-\x00v\x002\x000\x000\x008\x002\x000\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00m\x00i\x00m\x00g\x00.\x001\x002\x007\x00.\x00n\x00e\x00t\x00/\x00g\x00g\x00i\x00m\x00g\x00/\x00a\x00l\x00l\x00/\x00i\x00m\x00g\x002\x000\x00/\x00i\x00c\x00o\x00_\x00g\x00g\x00_\x00v\x002\x00.\x00p\x00n\x00g' @ 1239 : 1
+2021/03/16-23:11:53.614 5109 Compacting 1@1 + 1@2 files
+2021/03/16-23:11:53.617 5109 Generated table #13@1: 110 keys, 10254 bytes
+2021/03/16-23:11:53.617 5109 Compacted 1@1 + 1@2 files => 10254 bytes
+2021/03/16-23:11:53.619 5109 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/16-23:11:53.619 5109 Delete type=2 #9
+2021/03/16-23:11:53.619 5109 Delete type=2 #12
+2021/03/16-23:11:53.620 5109 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x10Lv\xb9\x83wB\x00\x01R\x00f\x00r\x00e\x00e\x00m\x00a\x00i\x00l\x00-\x00l\x00o\x00g\x00i\x00n\x00-\x00p\x00c\x00:\x00i\x00m\x00a\x00g\x00e\x00-\x00v\x002\x000\x000\x008\x002\x000\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00m\x00i\x00m\x00g\x00.\x001\x002\x007\x00.\x00n\x00e\x00t\x00/\x00g\x00g\x00i\x00m\x00g\x00/\x00a\x00l\x00l\x00/\x00i\x00m\x00g\x002\x000\x00/\x00i\x00c\x00o\x00_\x00g\x00g\x00_\x00v\x002\x00.\x00p\x00n\x00g' @ 1239 : 1 .. (end); will stop at (end)

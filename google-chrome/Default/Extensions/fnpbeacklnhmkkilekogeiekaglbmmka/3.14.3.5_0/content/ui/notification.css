@@ -1,0 +1,423 @@
+/*
+     NortonLifeLock copyright header start
+
+ Copyright (c) 2020, NortonLifeLock Inc, All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+
+*/
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../fonts/segoeui.ttf) format("truetype");
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  float: right;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+/* 
+Used to smooth the font on the level of the pixel, as opposed to the subpixel. 
+Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter.
+*/
+.antialiased{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.notify-center {
+  min-width: 430px;
+  height: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.notify  {
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  -webkit-animation: fadeInFromNone 1s ease-out;
+  -moz-animation: fadeInFromNone 1s ease-out;
+  -o-animation: fadeInFromNone 1s ease-out;
+  animation: fadeInFromNone 1s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.acquire {
+  height: 170px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 65px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.notification-message-content {
+  min-height: 60px;
+  margin-right: 15px;
+}
+
+.message {
+  min-width: 330px;
+  max-width: 330px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left:60px;
+  font-size: 14px;
+}
+
+.extra-message {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.line1 {
+  font-weight: bold;
+}
+
+.line2 {
+  margin-top: 5px;
+}
+
+.actions {
+  width: 100%;
+  min-height: 40px;
+  padding-top: 10px;
+}
+
+.dont-ask {
+  float: left;
+  color: #0089c6;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.action-button {
+  min-width: 131px;
+  height: 40px;
+  background-color: #ffe283;
+  float: right;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.action-button:active {
+  background-color: #ffd664;
+}
+
+.third-action-button {
+  min-width: 131px;
+  height: 40px;
+  background-color: #ffe283;
+  margin-right: 8px;
+  float: right;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.third-action-button:active {
+  background-color: #ffd664;
+}
+
+.cancel-button {
+  float: right;
+  min-width: 131px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #0089c6;
+  text-align: center;
+  cursor: pointer;
+}
+
+.divider {
+  height: 10px;
+}
+
+.collapse,
+.info .extra-message,
+.alert .extra-message,
+.error .extra-message,
+.good .extra-message,
+.actionable .extra-message,
+.info .actions,
+.alert .actions,
+.error .actions,
+.good .actions,
+.acquire .dont-ask,
+.actionable .cancel-button {
+  display: none;
+}
+
+.icon-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/ic-global-close.svg);
+  cursor: pointer;
+}
+
+body[dir="rtl"] .notify-center {
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+
+body[dir="rtl"] .icon {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+body[dir="rtl"] .dont-ask {
+  float: right;
+}
+
+body[dir="rtl"] .action-button {
+  float: left;
+}
+
+body[dir="rtl"] .third-action-button {
+  float: left;
+  margin-right: 0px;
+  margin-left: 8px;
+}
+
+body[dir="rtl"] .cancel-button {
+  float: left;
+}
+
+body[dir="rtl"] .icon-close {
+  left: 5px;
+  right: auto;
+}
+
+body[dir="rtl"] .header {
+   margin-right: 0px;
+}
+
+body[dir="rtl"] .notification-message-content {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+body[dir="rtl"] .message {
+  margin-right: 60px;
+  margin-left: 0;
+}
+
+.title-danger {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 340px;
+}
+.actionable-warning {
+  color: white;
+  background-color: #bc0000;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.12);
+  position: relative;
+  min-height: 40px;
+}
+.notification-body{
+  width: fit-content;
+}
+.message-body-danger{
+  background-color: #242e39;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+  border-bottom: 5px solid #ffc200;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.notification-header {
+  height: 50px;
+  background-color: #242e39;
+  color: white;
+  position: relative;
+  display: flex;
+}
+
+.notification-header-title {
+  font-size: 16px;
+  letter-spacing: -0.39px;
+  margin: auto 0px auto 7px;
+}
+
+.notification-header-title-icon {
+  width: 26px;
+  height: 26px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjgiIGhlaWdodD0iMjkiIHZpZXdCb3g9IjAgMCAyOCAyOSI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0icHJlZml4X19iIiBkPSJNMCAwLjEzMUwxOC4wMDYgMC4xMzEgMTguMDA2IDE4LjAyNCAwIDE4LjAyNHoiLz4KICAgICAgICA8cGF0aCBpZD0icHJlZml4X19kIiBkPSJNMCAyMC44N0wyMCAyMC44NyAyMCAwIDAgMHoiLz4KICAgICAgICA8ZmlsdGVyIGlkPSJwcmVmaXhfX2EiIHdpZHRoPSIxMDcuMyUiIGhlaWdodD0iMTA5LjQlIiB4PSItMy4yJSIgeT0iLTMuOCUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCI+CiAgICAgICAgICAgIDxmZU9mZnNldCBkeT0iMiIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSIvPgogICAgICAgICAgICA8ZmVHYXVzc2lhbkJsdXIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIiBzdGREZXZpYXRpb249IjIiLz4KICAgICAgICAgICAgPGZlQ29sb3JNYXRyaXggaW49InNoYWRvd0JsdXJPdXRlcjEiIHJlc3VsdD0ic2hhZG93TWF0cml4T3V0ZXIxIiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuNSAwIi8+CiAgICAgICAgICAgIDxmZU1lcmdlPgogICAgICAgICAgICAgICAgPGZlTWVyZ2VOb2RlIGluPSJzaGFkb3dNYXRyaXhPdXRlcjEiLz4KICAgICAgICAgICAgICAgIDxmZU1lcmdlTm9kZSBpbj0iU291cmNlR3JhcGhpYyIvPgogICAgICAgICAgICA8L2ZlTWVyZ2U+CiAgICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNwcmVmaXhfX2EpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTYgLTEyKSI+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAgMTQpIj4KICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAyLjg0NikiPgogICAgICAgICAgICAgICAgPG1hc2sgaWQ9InByZWZpeF9fYyIgZmlsbD0iI2ZmZiI+CiAgICAgICAgICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjcHJlZml4X19iIi8+CiAgICAgICAgICAgICAgICA8L21hc2s+CiAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjRkRDMTE0IiBkPSJNMTMuMzU2IDEzLjQwMWE2LjE0IDYuMTQgMCAwMS00LjM1MyAxLjc5MiA2LjE0IDYuMTQgMCAwMS00LjM1MS0xLjc5IDYuMDYzIDYuMDYzIDAgMDEtMS44MDQtNC4zMjZBNi4wNiA2LjA2IDAgMDE0LjY1IDQuNzUzYTYuMTQgNi4xNCAwIDAxNC4zNTItMS43OTFjMS42NDIgMCAzLjE4OS42MzYgNC4zNTMgMS43OWE2LjA2NCA2LjA2NCAwIDAxMS44MDIgNC4zMjUgNi4wNiA2LjA2IDAgMDEtMS44MDIgNC4zMjRNOS4wMDMuMTMxQzQuMDQuMTMyIDAgNC4xNDUgMCA5LjA3N2MwIDQuOTMzIDQuMDQgOC45NDYgOS4wMDMgOC45NDcgNC45NjMgMCA5LjAwMy00LjAxNCA5LjAwMy04Ljk0NyAwLTQuOTMyLTQuMDQtOC45NDUtOS4wMDMtOC45NDYiIG1hc2s9InVybCgjcHJlZml4X19jKSIvPgogICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDxtYXNrIGlkPSJwcmVmaXhfX2UiIGZpbGw9IiNmZmYiPgogICAgICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjcHJlZml4X19kIi8+CiAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZEQzExNCIgZD0iTTE5LjA0OCAyLjg0NkwyMCAyLjg0NiAyMCAxLjg5NyAxOS4wNDggMS44OTd6TTE5LjA0OC45NDlMMjAgLjk0OSAyMCAwIDE5LjA0OCAwek0xNy4xNDMgMi44NDZMMTguMDk1IDIuODQ2IDE4LjA5NSAxLjg5NyAxNy4xNDMgMS44OTd6IiBtYXNrPSJ1cmwoI3ByZWZpeF9fZSkiLz4KICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZFRkVGRSIgZD0iTTE1LjIzOCA0Ljc0M0wxNi4xOSA0Ljc0MyAxNi4xOSAzLjc5NCAxNS4yMzggMy43OTR6TTE3LjE0MyAzLjc5NEwxOC4wOTUgMy43OTQgMTguMDk1IDIuODQ2IDE3LjE0MyAyLjg0NnpNMTQuMjg2IDMuNzk0TDE1LjIzOCAzLjc5NCAxNS4yMzggMi44NDYgMTQuMjg2IDIuODQ2ek0xNy4xNDMgNC43NDNMMTguMDk1IDQuNzQzIDE4LjA5NSAzLjc5NCAxNy4xNDMgMy43OTR6TTE4LjA5NSAxLjg5N0wxOS4wNDggMS44OTcgMTkuMDQ4Ljk0OSAxOC4wOTUuOTQ5ek0xNy4xNDMgMi44NDZMMTkuMDQ4IDIuODQ2IDE5LjA0OCAxLjg5NyAxNy4xNDMgMS44OTd6TTE2LjE5IDMuNzk0TDE3LjE0MyAzLjc5NCAxNy4xNDMgMS44OTcgMTYuMTkgMS44OTd6TTE2LjQ3IDUuNGgtLjY5NnYtLjY1N0gxNC42MnYuNDczSDE0di41ODNoLjY5MnYuNjVoLS42OTF2LS42NWgtLjczNXYxLjAyaC0uNjk1di42NWgtLjQ2di42NTJoLS41MDhjLS41Ny44LTEuOTk2IDMuMjg4LTIuNDI4IDQuMzAzLTEuNTU0LTIuMDQtMi43NjEtMi44NS0zLjcxMS0zLjE0NC0uNTE0LS4xNDUtMS4xMzIuMzgyLS4yOCAxLjIxMSAxLjk1NyAyLjAyOCAyLjU3MyAzLjcwOSAzLjE2NyA1LjA1LjMxNS43MDYgMS43MjUuODE2IDIuMDA5LjA5Ny42MDItMS41MjIgMS40NzUtMy4yMzEgMi41MDgtNC42MzR2LS43MjhoLjU1MlY5LjYySDE0di0uNzZoLjY5NXYtLjczM2gtLjcwMnYtLjY2NmguNzAydi42NjZoLjY4NWwtLjAwMi0uNjZoLjU1MXYtLjc5NWguNjE4di0uNTQ4aC41OTZWNC43NDNoLS42NzNWNS40eiIgbWFzaz0idXJsKCNwcmVmaXhfX2UpIi8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  margin: auto 0px auto 8px;
+}
+
+.focused-title{
+  padding-top: 10px;
+  font-weight: bold;
+}
+body[dir="rtl"] .focused-title {
+  text-align: right;
+}
+.learn-more-link{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+body[dir="rtl"] .learn-more-link {
+  text-align: right;
+}
+.learn-more-redirect-link{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.learn-more-content{
+  padding-top: 10px
+}
+.danger-action-button {
+  height: 30px;
+  background-color: #ffe283;
+  color: #333333;
+  float: right;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.danger-action-button:active {
+  background-color: #ffd664;
+}
+
+body[dir="rtl"] .danger-action-button {
+  float: left;
+}
+
+.icon-close-white {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/ic-close-white.svg);
+  cursor: pointer;
+  background-size: 20px;
+  background-position: -3px -1px;
+}
+
+body[dir="rtl"] .icon-close-white {
+  left: 10px;
+  right: auto;
+}
+
+.icon-danger {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  background-size: 52px;
+  display: inline-block;
+  background-position: 0px 4px;
+  vertical-align: top;
+}
+
+body[dir="rtl"] .icon-danger {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.learn-more-second-paragraph{
+    padding-bottom: 15px;
+    padding-top: 5px;
+}

@@ -1,0 +1,35 @@
+Signal: 1
+------- BEGIN QV2RAY CRASH REPORT -------
+#0: 
+#1: 
+#2: 
+#3: __poll
+#4: 
+#5: xcb_wait_for_event
+#6: 
+#7: 
+#8: 
+#9: clone
+#10: 
+Active Kernel Instances:
+[]
+Current Connection:
+{"connectionId":"pyxnjlpuvwan","groupId":"qshgcflyhbfy"}
+
+
+Active Connection Settings:
+{"creationDate":1615902260,"displayName":"香港 01 | V2Ray | 2x","lastConnected":1615903606,"lastUpdatedDate":1615902260,"latency":33,"stats":[{"downLinkData":15514932,"upLinkData":369504},{"downLinkData":7109870,"upLinkData":219037},{"downLinkData":8499193,"upLinkData":184551},{}]}
+
+
+Group:
+{"connections":["mxfxneyuxsqa","vnopnkbavhhw","hlsskzxsrszf","jgbylpexfdit","qvecpbutqdvr","pyxnjlpuvwan","hvqjarrvxgqq","zwskwpszaxgp","zympvrcwrgke"],"creationDate":1615902241,"displayName":"prprcloud","isSubscription":true,"lastUpdatedDate":1615903029,"routeConfigId":"lzslydkcuhsy","subscriptionOption":{"address":"HIDDEN","updateInterval":0.5}}
+
+
+Plugins:
+["Builtin Protocol Support","Qv2ray Core Workgroup","qvplugin_builtin_protocol","VMess, VLESS, SOCKS, HTTP, Shadowsocks, DNS, Dokodemo-door editor support"]
+["Builtin Subscription Support","Qv2ray Core Workgroup","builtin_subscription_support","Basic subscription support for Qv2ray"]
+
+
+GlobalConfig:
+{"advancedConfig":{},"autoStartBehavior":2,"autoStartId":{"connectionId":"jgbylpexfdit","groupId":"qshgcflyhbfy"},"config_version":14,"defaultRouteConfig":{"dnsConfig":{"servers":[{"address":"1.1.1.1"},{"address":"8.8.8.8"},{"address":"8.8.4.4"}]},"forwardProxyConfig":{"port":1848602217},"routeConfig":{"domainStrategy":"AsIs"}},"inboundConfig":{"httpSettings":{"port":7890},"socksSettings":{"port":7891}},"kernelConfig":{"v2AssetsPath_linux":"/home/wingdr/.config/qv2ray/vcore/","v2CorePath_linux":"/home/wingdr/.config/qv2ray/vcore/v2ray"},"lastConnectedId":{"connectionId":"pyxnjlpuvwan","groupId":"qshgcflyhbfy"},"logLevel":3,"networkConfig":{"proxyType":1},"outboundConfig":{},"pluginConfig":{"pluginStates":{"builtin_subscription_support":true,"qvplugin_builtin_protocol":true}},"uiConfig":{"graphConfig":{"colorConfig":{"$0":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$1":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$2":{"value1":{"B":240,"G":210,"R":0,"style":3},"value2":{"B":42,"G":220,"R":235,"style":3}}}},"language":"zh_CN","quietMode":true,"recentConnections":[{"connectionId":"pyxnjlpuvwan","groupId":"qshgcflyhbfy"},{"connectionId":"jgbylpexfdit","groupId":"qshgcflyhbfy"},{"connectionId":"yomrmxepqufy","groupId":"xjgbebwwquqt"}],"startMinimized":false},"updateConfig":{}}
+------- END OF QV2RAY CRASH REPORT -------

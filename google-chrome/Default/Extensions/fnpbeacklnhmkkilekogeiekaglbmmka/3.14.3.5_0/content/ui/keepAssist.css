@@ -1,0 +1,163 @@
+/*
+NortonLifeLock copyright header start
+
+Copyright (c) 2021 NortonLifeLock Inc. All rights reserved.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+The Licensed Software and Documentation are deemed to be commercial computer
+software as defined in FAR 12.212 and subject to restricted rights as defined
+in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+and DFARS 227.7202, "Rights in Commercial Computer Software or Commercial
+Computer Software Documentation", as applicable, and any successor regulations.
+Any use, modification, reproduction release, performance, display or disclosure
+of the Licensed Software and Documentation by the U.S. Government shall be
+solely in accordance with the terms of this Agreement.
+
+NortonLifeLock copyright header stop
+*/
+
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url('../fonts/source-sans-pro_regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/segoeui.ttf') format("truetype");
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.keep-assist-container {
+  width: 662px;
+  height: 375px;
+  background-color: #242e39;
+}
+
+section.keep-assist-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+div.title {
+  padding-top: 40px;
+  font-family: Source Sans Pro Regular;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align:center;
+}
+
+div.title span.product-name {
+  font-weight: 600;
+}
+
+div.description-container {
+  font-family: Source Sans Pro Regular;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  height: 34px;
+  width: 524px;
+  padding-top: 8px;
+}
+
+div.description-container span.keep-it-string {
+  font-weight: bold;
+}
+
+div.assist-image-container {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+div.assist-image-container .assist-image {
+  width: 299px;
+  height: 124px;
+  object-fit: contain;
+}
+
+div.assist-image-container p.button-text {
+  position: absolute;
+  top: 80px;
+  width: 54px;
+  height: 18px;
+  font-family: Source Sans Pro Regular;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  color: #1974e8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+div.done-button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 9px;
+}
+
+div.done-button-container .btn-done {
+  width: 152px;
+  height: 40px;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  background-color: #ffe283;
+}
+
+footer.keep-assist-footer {
+  object-fit: contain;
+  margin-left: 16px;
+  padding-top: 12px;
+}
+
+footer.keep-assist-footer .norton-logo {
+  float: left;
+  width: 112px;
+  height: 21px;
+}
+
+/* RTL styling begins */
+body[dir="rtl"] footer.keep-assist-footer .norton-logo {
+  float: right;
+  margin-left: 0px;
+  margin-right: 16px;
+}
+/* RTL styling ends */
+

@@ -1,0 +1,27 @@
+Signal: 1
+------- BEGIN QV2RAY CRASH REPORT -------
+#0: 
+#1: 
+#2: 
+#3: __poll
+#4: 
+#5: xcb_wait_for_event
+#6: 
+#7: 
+#8: 
+#9: clone
+#10: 
+Active Kernel Instances:
+[]
+Current Connection:
+{}
+
+
+Plugins:
+["Builtin Protocol Support","Qv2ray Core Workgroup","qvplugin_builtin_protocol","VMess, VLESS, SOCKS, HTTP, Shadowsocks, DNS, Dokodemo-door editor support"]
+["Builtin Subscription Support","Qv2ray Core Workgroup","builtin_subscription_support","Basic subscription support for Qv2ray"]
+
+
+GlobalConfig:
+{"advancedConfig":{},"autoStartBehavior":1,"autoStartId":{"connectionId":"yomrmxepqufy","groupId":"xjgbebwwquqt"},"config_version":14,"defaultRouteConfig":{"dnsConfig":{"servers":[{"address":"1.1.1.1"},{"address":"8.8.8.8"},{"address":"8.8.4.4"}]},"forwardProxyConfig":{"port":1848602217},"routeConfig":{"domainStrategy":"AsIs"}},"inboundConfig":{"httpSettings":{"port":7890},"socksSettings":{"port":7891}},"kernelConfig":{"v2AssetsPath_linux":"/home/wingdr/.config/qv2ray/vcore/","v2CorePath_linux":"/home/wingdr/.config/qv2ray/vcore/v2ray"},"lastConnectedId":{"connectionId":"szwenmerahxy","groupId":"xjgbebwwquqt"},"logLevel":3,"networkConfig":{"proxyType":1},"outboundConfig":{},"pluginConfig":{"pluginStates":{"builtin_subscription_support":true,"qvplugin_builtin_protocol":true}},"uiConfig":{"graphConfig":{"colorConfig":{"$0":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$1":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$2":{"value1":{"B":240,"G":210,"R":0,"style":3},"value2":{"B":42,"G":220,"R":235,"style":3}}}},"language":"zh_CN","quietMode":true,"recentConnections":[{"connectionId":"szwenmerahxy","groupId":"xjgbebwwquqt"},{"connectionId":"yomrmxepqufy","groupId":"xjgbebwwquqt"}]},"updateConfig":{}}
+------- END OF QV2RAY CRASH REPORT -------

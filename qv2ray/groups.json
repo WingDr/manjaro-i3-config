@@ -1,0 +1,30 @@
+{
+    "000000000000": {
+        "creationDate": 1615897580,
+        "displayName": "Default Group",
+        "lastUpdatedDate": 1615897580,
+        "routeConfigId": "dfotoorusrdp"
+    },
+    "qshgcflyhbfy": {
+        "connections": [
+            "uulntijcpfou",
+            "thlyirgtwdho",
+            "pmybzksloatg",
+            "bghzkqtaihdx",
+            "zgtcbhxesihg",
+            "jsncoivalowi",
+            "irpyepdumuip",
+            "jycantspcbmj",
+            "wdnjshssnodx"
+        ],
+        "creationDate": 1615904612,
+        "displayName": "prprcloud",
+        "isSubscription": true,
+        "lastUpdatedDate": 1615904635,
+        "routeConfigId": "jkpqyuqajwse",
+        "subscriptionOption": {
+            "address": "https://sub.prprc.xyz/link/S4lpzFPrjYnrLaQz?sub=3",
+            "updateInterval": 0.5
+        }
+    }
+}

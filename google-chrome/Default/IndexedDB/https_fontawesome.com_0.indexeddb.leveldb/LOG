@@ -1,0 +1,5 @@
+2021/03/10-16:49:26.961 ff9 Reusing MANIFEST /home/wingdr/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/10-16:51:36.879 110f Level-0 table #5: started
+2021/03/10-16:51:36.884 110f Level-0 table #5: 9477 bytes OK
+2021/03/10-16:51:36.887 110f Delete type=0 #3
+2021/03/10-16:51:36.888 110f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

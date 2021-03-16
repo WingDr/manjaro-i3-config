@@ -1,0 +1,26 @@
+{
+    "dfotoorusrdp": {
+        "forwardProxyConfig": {
+            "port": 0
+        },
+        "routeConfig": {
+            "domainStrategy": "AsIs"
+        }
+    },
+    "jkpqyuqajwse": {
+        "forwardProxyConfig": {
+            "port": 0
+        },
+        "routeConfig": {
+            "domainStrategy": "AsIs"
+        }
+    },
+    "tdkpozrgvvkp": {
+        "forwardProxyConfig": {
+            "port": 0
+        },
+        "routeConfig": {
+            "domainStrategy": "AsIs"
+        }
+    }
+}

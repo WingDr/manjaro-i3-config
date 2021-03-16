@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=qv2ray
+GenericName=V2Ray Frontend
+Exec=/home/wingdr/software/Qv2ray.v2.7.0-pre2.linux-x64.AppImage
+Terminal=false
+Icon=qv2ray
+Categories=Network
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

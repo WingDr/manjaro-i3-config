@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309" height="141" viewBox="0 0 309 141">
+    <defs>
+        <filter id="sotvjhd8sa" width="110.7%" height="129.8%" x="-5.4%" y="-11.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="e1lbakmw0b" width="104.7%" height="112.2%" x="-2.3%" y="-4.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <filter id="x6xkakmpod" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <filter id="ma756clzef" width="128.8%" height="128.8%" x="-14.4%" y="-8.1%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="shadowSpreadOuter1"/>
+            <feOffset dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+        <filter id="sql019lyog" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <circle id="kxtpnkza5e" cx="126" cy="40.346" r="40"/>
+        <path id="occwllwquc" d="M0 0H299V115H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#sotvjhd8sa)" transform="translate(-566 -428) translate(389 292) translate(182 138)">
+                        <g>
+                            <use fill="#000" filter="url(#e1lbakmw0b)" xlink:href="#occwllwquc"/>
+                            <use fill="#FFF" xlink:href="#occwllwquc"/>
+                        </g>
+                        <rect width="62.241" height="20.679" x="133.275" y="74.275" fill="#FFF" stroke="#9A9A9A" stroke-opacity=".489" stroke-width=".55" filter="url(#x6xkakmpod)" rx="1"/>
+                        <rect width="75" height="21.229" x="208" y="74" fill="#1974E8" rx="1"/>
+                        <g transform="translate(20 43)">
+                            <rect width="193" height="5.307" y="7.691" fill="#D8D8D8" rx="1"/>
+                            <mask id="8nz2xulsfh" fill="#fff">
+                                <use xlink:href="#kxtpnkza5e"/>
+                            </mask>
+                            <g>
+                                <use fill="#000" filter="url(#ma756clzef)" xlink:href="#kxtpnkza5e"/>
+                                <use fill="#FFF" xlink:href="#kxtpnkza5e"/>
+                            </g>
+                            <rect width="83.5" height="34.5" x="96.75" y="22.75" fill="#FFF" stroke="#9A9A9A" stroke-opacity=".489" stroke-width="1.5" filter="url(#sql019lyog)" mask="url(#8nz2xulsfh)" rx="1"/>
+                            <rect width="239" height="18" x="-43" y="-7.654" fill="#D8D8D8" mask="url(#8nz2xulsfh)" rx="1"/>
+                        </g>
+                        <rect width="229" height="12.384" x="20" y="18" fill="#B4B4B4" rx="2"/>
+                        <rect width="259" height="5.307" x="20" y="39.384" fill="#D8D8D8" rx="1"/>
+                        <circle cx="146" cy="83.346" r="41.5" stroke="#333" stroke-width="3"/>
+                    </g>
+                    <g fill="#333" fill-rule="nonzero">
+                        <path d="M10.418 16.368l2.966 6.906c.207.479-.03 1.015-.502 1.218l-2.612 1.089c-.486.203-1.032-.03-1.239-.494L6.213 18.53l-4.604 4.526C.995 23.66 0 23.194 0 22.403V.583C0-.248 1.058-.654 1.608-.068l15.11 14.856c.61.567.16 1.58-.664 1.58h-5.636z" transform="translate(-566 -428) translate(389 292) translate(182 138) translate(147 91.346)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

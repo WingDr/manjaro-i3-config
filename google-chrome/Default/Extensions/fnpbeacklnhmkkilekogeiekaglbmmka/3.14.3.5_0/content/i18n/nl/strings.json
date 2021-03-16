@@ -1,0 +1,504 @@
+{
+	"Caution":
+	{
+		"message": "Let op"
+	},
+
+	"Untested":
+	{
+		"message": "NIET GETEST"
+	},
+
+	"Warning":
+	{
+		"message": "Waarschuwing"
+	},
+	"Norton Secured":
+	{
+		"message": "VEILIG"
+	},
+	"Not Licensed":
+	{
+		"message": "Niet gelicentieerd"
+	},
+	"Safe":
+	{
+		"message": "Veilig"
+	},
+	"Safe Web is off":
+	{
+		"message": "VEILIG"
+	},
+	"Page not analyzed":
+	{
+		"message": "Pagina is niet geanalyseerd"
+	},
+	"Search the Web Safely":
+	{
+		"message": "VEILIG"
+	},
+	"Norton Rating":
+	{
+		"message": "Norton-beoordeling"
+	},
+	"Computer Threats":
+	{
+		"message": "Computer-\nbedreigingen"
+	},
+	"Identity Threats":
+	{
+		"message": "Identiteits-\nbedreigingen"
+	},
+	"Annoyance Threats":
+	{
+		"message": "Storende bedreigingen"
+	},
+	"Total Threats":
+	{
+		"message": "Totaal"
+	},
+	"Full Safe Web report":
+	{
+		"message": "Volledig Safe Web-rapport"
+	},
+	"Report this site":
+	{
+		"message": "Deze site rapporteren"
+	},
+	"Norton Safe Web":
+	{
+		"message": "Norton Safe Web"
+	},
+	"Browser Settings":
+	{
+		"message": "Browserinstellingen"
+	},
+	"Unsafe to Shop":
+	{
+		"message" : "ONVEILIG"
+	},
+    "total_threats_id":
+    {
+        "message" : "Bedreigingen: "
+    },
+		"untested_text":
+		{
+			"message" : "Deze site is nog niet getest"
+		},
+    "safe_status_id":
+    {
+        "message" : "VEILIG"
+    },
+    "secure_status_id":
+    {
+        "message" : "VEILIG"
+    },
+    "caution_status_id":
+    {
+        "message" : "Let op"
+    },
+    "untested_status_id":
+    {
+        "message" : "NIET GETEST"
+    },
+    "unsafe_status_id":
+    {
+        "message" : "ONVEILIG"
+    },
+		"full_report_id" :
+		{
+				"message" : "Volledig rapport"
+		},
+	"nortonrating_id":
+	{
+		"message" : "Norton-beoordeling:"
+	},
+	"Malicious Download Detected":
+	{
+		"message" : "Schadelijke download gedetecteerd"
+	},
+	"Download Cancelled":
+	{
+		"message" : "Download geannuleerd"
+	},
+	"Malicious Website Blocked":
+	{
+		"message" : "Schadelijke website geblokkeerd"
+	},
+	"Malicious Site Blocked!":
+	{
+		"message" : "Schadelijke site geblokkeerd!"
+	},
+	"You attempted to access:" :
+	{
+		"message" : "U probeert toegang te krijgen tot:"
+	},
+	"This is a known malicious website. It is recommended that you do NOT visit this site. The" :
+	{
+		"message" : "Dit is een bekende schadelijke website. Het is raadzaam deze website NIET te bezoeken.  "
+	},
+	"This webpage is a known malicious webpage." :
+	{
+		"message" : "Deze webpagina is een bekende schadelijke webpagina."
+	},
+	"This site is a known malicious website." :
+	{
+		"message" : "Deze site is een bekende schadelijke website."
+	},
+	"detailed report" :
+	{
+		"message" : "gedetailleerde rapport"
+	},
+	"explains the security risks on this site." :
+	{
+		"message" : "worden de beveiligingsrisico\u2019s op deze website uitgelegd."
+	},
+	"For your protection, this website has been blocked. Visit" :
+	{
+		"message" : "Deze website is voor uw veiligheid geblokkeerd. Ga naar"
+	},
+	"to learn more about phishing and internet security." :
+	{
+		"message" : "voor meer informatie over phishing en internetbeveiliging."
+	},
+	"Exit this site" :
+	{
+		"message" : "Deze site afsluiten"
+	},
+	"I want to view this Website anyway" :
+	{
+		"message" : "Ik wil toch naar deze website gaan"
+	},
+	"It is recommended that you" :
+	{
+		"message" : "Het is raadzaam deze website"
+	},
+	"DO NOT visit this Website." :
+	{
+		"message" : "Bezoek deze website NIET."
+	},
+	"Norton":
+	{
+		"message" : "Norton"
+	},
+	"Norton Safe Search" :
+	{
+		"message" : "Norton Safe Search"
+	},
+	"Norton Home Page" :
+	{
+		"message" : "Norton-startpagina"
+	},
+	"Suspicious Website Blocked" : {
+		"message" : "Verdachte website geblokkeerd"
+	},
+	"For your protection, this webpage has been blocked and submitted for review." :
+	{
+		"message" : "Deze webpagina is voor uw veiligheid geblokkeerd en wordt ter beoordeling ingediend."
+	},
+	"It is highly recommended that you do NOT visit this page." :
+	{
+		"message" : "Het is uiterst raadzaam deze pagina NIET te bezoeken."
+	},
+	"Visit" :
+	{
+		"message" : "Ga naar"
+	},
+	"Continue to the site" :
+	{
+		"message" : "Doorgaan naar de site"
+	},
+	"View Full Report" :
+	{
+		"message" : "Volledig rapport weergeven"
+	},
+	"BLOCKED BY" :
+	{
+		"message" : "GEBLOKKEERD DOOR"
+	},
+	"Search for a safer site" :
+	{
+		"message" : "Naar een veiligere site zoeken"
+	},
+	"Fraudulent Webpage Blocked" :
+	{
+		"message" : "Frauduleuze webpagina geblokkeerd"
+	},
+	"This webpage is a known fraudulent webpage.":
+	{
+		"message" : "Deze webpagina is een bekende frauduleuze webpagina."
+	},
+	"Dangerous Webpage Blocked" :
+	{
+		"message" : "Gevaarlijke webpagina geblokkeerd"
+	},
+	"This is a known dangerous webpage." :
+	{
+		"message" : "Dit is een bekende gevaarlijke webpagina."
+	},
+	"Thank you for using {0}! Share usage and error data anonymously with Norton to help make our products even better." : {
+		"message" : "Hartelijk dank dat u heeft gekozen voor {0}! Deel gebruiks- en foutgegevens anoniem met Norton en help ons onze producten nog beter te maken."
+	},
+	"OK" :
+	{
+	    "message" : "OK"
+	},
+	"No, thanks" :
+	{
+	    "message" : "Nee, bedankt"
+	},
+	"Learn More" :
+	{
+	    "message" : "Meer informatie"
+	},
+	"Safe Web"	:
+	{
+			"message" : "Safe Web"
+	},
+	"Safe Search"	:
+	{
+			"message"	: "Safe Search"
+	},
+	"Home Page"	:
+	{
+			"message"	: "Startpagina"
+	},
+	"Settings"	:
+	{
+			"message" :	"Instellingen"
+	},
+	"Share Data with Norton"	:
+	{
+			"message"	: "Gegevens delen met Norton"
+	},
+	"Share usage and error data anonymously with Norton and help us make our products even better"	:
+	{
+			"message"	: "Deel gebruiks- en foutgegevens anoniem met Norton en help ons onze producten nog beter te maken"
+	},
+	"Scam Insight: Personal Information Risk" :
+	{
+		"message" : "Scaminformatie: risico voor persoonlijke gegevens"
+	},
+	"This site is safe, but…" :
+	{
+		"message" : "Deze site is veilig, maar\u2026"
+	},
+	"It asks for personal information and is not well established with the Norton Community. Use caution when entering any of your information on this site. " :
+	{
+		"message" : "De site vraagt om persoonlijke gegevens, maar de Norton Community is niet goed vertrouwd met deze site. Wees voorzichtig wanneer u uw gegevens op deze site invoert. "
+	},
+	"Visit " :
+	{
+		"message" : "Ga naar"
+	},
+	"Norton " :
+	{
+		"message" : "Norton"
+	},
+	"to learn more about personal information risk on Websites." :
+	{
+		"message" : "als u meer wilt weten over risico's voor persoonlijke gegevens op websites."
+	},
+	"Age: " :
+	{
+		"message" : "Leeftijd: "
+	},
+	"Very New" :
+	{
+		"message" : "Erg nieuw"
+	},
+	"This website was published very recently." :
+	{
+		"message" : "Deze website is zeer recent gepubliceerd."
+	},
+	"New" :
+	{
+		"message" : "Nieuw"
+	},
+	"This website has been available for a short time." :
+	{
+		"message" : "Deze website is pas sinds korte tijd beschikbaar."
+	},
+	"Prevalence: " :
+	{
+		"message" : "Prevalentie: "
+	},
+	"No Users" :
+	{
+		"message" : "Geen gebruikers"
+	},
+	"No Norton community members have used this site." :
+	{
+		"message" : "Geen van de Norton Community-leden heeft deze site gebruikt."
+	},
+	"Few Users" :
+	{
+		"message" : "Weinig gebruikers"
+	},
+	"Very few Norton community members have used this site." :
+	{
+		"message" : "Weinig Norton Community-leden hebben deze site gebruikt."
+	},
+	"Continue to Site" :
+	{
+		"message" : "Doorgaan naar site"
+	},
+	"Exit Site" :
+	{
+		"message" : "Site afsluiten"
+	},
+	"If you think this website is categorized incorrectly, " :
+	{
+		"message" : "Als u denkt dat deze website onjuist is gecategoriseerd, kunt u het "
+	},
+	"Report Issue." :
+	{
+		"message" : "probleem rapporteren."
+	},
+	"Signed in as"		:
+	{
+		"message"		: "Aangemeld als"
+	},
+	"Sign out"			:
+	{
+		"message"		: "Afmelden"
+	},
+	"You have successfully logged out of your NortonLifeLock Account"	: {
+		"message"	:	"U bent afgemeld bij uw NortonLifeLock-account"
+	},
+	"Sorry, something went wrong. Please try again." :	{
+		"message"	:	"Er is helaas iets misgegaan. Probeer het opnieuw."
+	},
+	"Link Guard": {
+		"message": "Link Guard"
+	},
+	"Identify unsafe links in Webmail, Facebook, and Twitter": {
+		"message": "Identificeer onveilige links in Webmail, Facebook en Twitter"
+	},
+	"Banking Protection": {
+  		"message": "Bescherming tijdens het bankieren"
+	},
+	"Banking Protection can help protect your sensitive online transactions.": {
+  		"message": "Bescherming tijdens het bankieren helpt u gevoelige online transacties te beschermen."
+	},
+	"Select your preferences below for viewing banking websites in Isolation Mode:": {
+  		"message": "Selecteer hieronder uw voorkeuren voor de weergave van websites voor bankieren in de isolatiemodus:"
+	},
+	"Websites": {
+  		"message": "Websites"
+	},
+	"Isolation Mode On": {
+  		"message": "Isolatiemodus aan"
+	},
+	"Isolation Mode Off": {
+  		"message": "Isolatiemodus uit"
+	},
+	"Ask Me": {
+  		"message": "Mij vragen"
+	},
+	"Norton Secure Search": {
+		"message": "Norton Secure Search"
+	},
+	"Quick Links": {
+		"message": "Snelkoppelingen"
+	},
+	"Privacy": {
+		"message": "Privacy"
+	},
+	"Copyright © 2021 NortonLifeLock Inc. All rights reserved.": {
+		"message": "Copyright \u00a9 2021 NortonLifeLock Inc. Alle rechten voorbehouden."
+	},
+	"Legal": {
+		"message": "Juridisch"
+  },
+  "NortonLifeLock Latest Updates": {
+    "message": "Nieuwste updates van NortonLifeLock"
+  },
+  "Security & Privacy Center": {
+    "message": "Beveiligings- en privacycentrum"
+  },
+  "Welcome to Norton Safe Search": {
+    "message": "Welkom bij Norton Safe Search"
+  },
+  "Take a tour to see what has changed and make the most of your Safe Search features.": {
+    "message": "Kijk eens rond om te zien wat er veranderd is en haal het meeste uit uw Safe Search-functies."
+  },
+  "Start Tour": {
+    "message": "Rondleiding starten"
+  },
+  "Peace of mind with every search": {
+    "message": "Complete gemoedsrust bij elke zoekopdracht"
+  },
+  "Norton Safe Search shows site safety ratings in your search results.": {
+    "message": "Norton Safe Search geeft beveiligingsbeoordelingen voor websites in uw zoekresultaten weer."
+  },
+  "Get security updates and tips from Norton": {
+    "message": "Krijg beveiligingsupdates en tips van Norton"
+  },
+  "Explore the latest security and privacy blogs from NortonLifeLock and learn more about digital safety.": {
+    "message": "Bekijk de nieuwste blogs van NortonLifeLock over beveiliging en privacy en kom meer te weten over digitale veiligheid."
+  },
+  "A tour of Norton Safe Search is available in Settings.": {
+    "message": "Via Instellingen kunt u een rondleiding door Norton Safe Search volgen."
+  },
+  "Next": {
+    "message": "Volgende"
+  },
+  "Done": {
+    "message": "Gereed"
+  },
+  "Welcome to {0}": {
+	"message": "Welkom bij {0}"
+  },
+  "Thank you for choosing NortonLifeLock.": {
+	  "message": "Hartelijk dank dat u voor NortonLifeLock heeft gekozen."
+  },
+  "Keep It": {
+	"message": "Behouden"
+  },
+  "Keep it": {
+	"message": "Behouden"
+  },
+  "Maintain your {0} protection in Chrome by clicking the {1} button if a Chrome message appears at the top of the screen.": {
+	  "message": "Handhaaf uw {0}-bescherming in Chrome door op de knop {1} te klikken, zodra boven aan het scherm een Chrome-bericht verschijnt."
+  },
+  "Thanks for choosing NortonLifeLock.": {
+	  "message": "Bedankt dat u voor NortonLifeLock heeft gekozen."
+  },
+  "If a Chrome message appears at the top of the screen, click the {1} button to preserve your {0} in Chrome.": {
+	  "message": "Als boven aan het scherm een Chrome-bericht verschijnt, klikt u op de knop {1} om uw{0} in Chrome te behouden."
+	},
+  "Let us help protect you": {
+    "message" : "Laat ons u helpen uzelf te beschermen"
+  },
+  "Norton Safe Web must have permission to access and collect the web addresses (urls) that you've visited. This way, we can help detect whether the sites you browse are malicious and help protect you.": {
+    "message" : "Norton Safe Web moet toestemming hebben voor het openen en verzamelen van de webadressen (URL's) die u heeft bezocht. Zo kunnen we helpen vast te stellen of de sites die u bezoekt schadelijk zijn en kunnen we helpen u te beschermen."
+  },
+  "To better understand our data collection policies, please visit our": {
+    "message" : "Raadpleeg voor meer informatie over ons beleid inzake gegevensverzameling ons"
+  },
+  "Accept": {
+    "message" : "Accepteren"
+  },
+  "Decline": {
+    "message" : "Weigeren"
+  },
+  "Your Permission Is Required": {
+    "message" : "Uw toestemming is vereist"
+  },
+  "Norton Safe Web will not work and won't be able to help protect you from malicious websites you might browse.": {
+    "message" : "Norton Safe Web werkt niet naar behoren en kan niet helpen u te beschermen tegen schadelijke websites die u mogelijk bezoekt."
+  },
+  "Please click below to review your permission and accept our request to collect the anonymous information you submit.": {
+    "message" : "Klik hieronder om uw toestemming te bekijken en accepteer ons verzoek om de anonieme informatie die u verstrekt te verzamelen."
+  },
+  "Review Your Permissions": {
+    "message" : "Uw toestemmingen controleren"
+  },
+  "Remove Norton Safe Web": {
+    "message" : "Norton Safe Web verwijderen"
+  },
+	"Global Privacy Statement": {
+	"message" : "Wereldwijde privacyverklaring"
+	}
+}

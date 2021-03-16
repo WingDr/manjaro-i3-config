@@ -1,0 +1,26 @@
+[2021-03-13 18:22:39.840] [sharedprocess] [info] Installing extension: tomoki1207.pdf
+[2021-03-13 18:22:41.089] [sharedprocess] [info] Downloaded extension: tomoki1207.pdf undefined
+[2021-03-13 18:22:41.456] [sharedprocess] [info] Extracted extension to /home/wingdr/.vscode/extensions/.tomoki1207.pdf-1.1.0: tomoki1207.pdf
+[2021-03-13 18:22:41.457] [sharedprocess] [info] Renamed to /home/wingdr/.vscode/extensions/tomoki1207.pdf-1.1.0
+[2021-03-13 18:22:41.458] [sharedprocess] [info] Installation completed. tomoki1207.pdf
+[2021-03-13 18:22:41.462] [sharedprocess] [info] Extensions installed successfully: tomoki1207.pdf
+[2021-03-13 18:22:55.030] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-03-13 18:22:55.033] [sharedprocess] [info] Skipping directory 7f21593a6f690d3f9943ef151cd5606e.zh-cn. Language pack still in use.
+[2021-03-13 18:23:06.957] [sharedprocess] [info] Installing extension: james-yu.latex-workshop
+[2021-03-13 18:23:08.155] [sharedprocess] [info] Downloaded extension: james-yu.latex-workshop undefined
+[2021-03-13 18:23:10.617] [sharedprocess] [info] Installing extension: torn4dom4n.latex-support
+[2021-03-13 18:23:11.330] [sharedprocess] [info] Extracted extension to /home/wingdr/.vscode/extensions/.james-yu.latex-workshop-8.16.1: james-yu.latex-workshop
+[2021-03-13 18:23:11.330] [sharedprocess] [info] Renamed to /home/wingdr/.vscode/extensions/james-yu.latex-workshop-8.16.1
+[2021-03-13 18:23:11.332] [sharedprocess] [info] Installation completed. james-yu.latex-workshop
+[2021-03-13 18:23:11.349] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2021-03-13 18:23:12.286] [sharedprocess] [info] Downloaded extension: torn4dom4n.latex-support undefined
+[2021-03-13 18:23:12.331] [sharedprocess] [info] Extracted extension to /home/wingdr/.vscode/extensions/.torn4dom4n.latex-support-3.6.0: torn4dom4n.latex-support
+[2021-03-13 18:23:12.331] [sharedprocess] [info] Renamed to /home/wingdr/.vscode/extensions/torn4dom4n.latex-support-3.6.0
+[2021-03-13 18:23:12.332] [sharedprocess] [info] Installation completed. torn4dom4n.latex-support
+[2021-03-13 18:23:12.334] [sharedprocess] [info] Extensions installed successfully: torn4dom4n.latex-support
+[2021-03-13 18:23:13.258] [sharedprocess] [info] Installing extension: ajshort.latex-preview
+[2021-03-13 18:23:15.152] [sharedprocess] [info] Downloaded extension: ajshort.latex-preview undefined
+[2021-03-13 18:23:15.328] [sharedprocess] [info] Extracted extension to /home/wingdr/.vscode/extensions/.ajshort.latex-preview-0.5.1: ajshort.latex-preview
+[2021-03-13 18:23:15.329] [sharedprocess] [info] Renamed to /home/wingdr/.vscode/extensions/ajshort.latex-preview-0.5.1
+[2021-03-13 18:23:15.329] [sharedprocess] [info] Installation completed. ajshort.latex-preview
+[2021-03-13 18:23:15.331] [sharedprocess] [info] Extensions installed successfully: ajshort.latex-preview

@@ -1,0 +1,5 @@
+2021/03/16-22:50:04.350 52b Reusing MANIFEST /home/wingdr/.config/google-chrome/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/16-22:50:37.295 52b Level-0 table #5: started
+2021/03/16-22:50:37.299 52b Level-0 table #5: 2671 bytes OK
+2021/03/16-22:50:37.301 52b Delete type=0 #3
+2021/03/16-22:50:37.302 52b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
